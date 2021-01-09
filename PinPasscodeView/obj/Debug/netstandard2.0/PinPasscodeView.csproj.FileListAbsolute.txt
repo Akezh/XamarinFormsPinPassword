@@ -1,0 +1,15 @@
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\bin\Debug\netstandard2.0\PinPasscodeView.deps.json
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\bin\Debug\netstandard2.0\PinPasscodeView.dll
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\bin\Debug\netstandard2.0\ref\PinPasscodeView.dll
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\bin\Debug\netstandard2.0\PinPasscodeView.pdb
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.csprojAssemblyReference.cache
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\SetPinPasscodePage.xaml.g.cs
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.AssemblyInfoInputs.cache
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.AssemblyInfo.cs
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.dll
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\ref\PinPasscodeView.dll
+C:\Users\123\Desktop\Xamarin projects\PinPasscodeView\PinPasscodeView\obj\Debug\netstandard2.0\PinPasscodeView.pdb

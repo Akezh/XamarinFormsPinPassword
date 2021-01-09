@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\pinDelete.png" />
+    <None Remove="images\pinEight.png" />
+    <None Remove="images\pinFive.png" />
+    <None Remove="images\pinFour.png" />
+    <None Remove="images\pinNine.png" />
+    <None Remove="images\pinNo.png" />
+    <None Remove="images\pinOne.png" />
+    <None Remove="images\pinSeven.png" />
+    <None Remove="images\pinSix.png" />
+    <None Remove="images\pinThree.png" />
+    <None Remove="images\pinTwo.png" />
+    <None Remove="images\pinYes.png" />
+    <None Remove="images\pinZero.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\pinDelete.png" />
+    <EmbeddedResource Include="images\pinEight.png" />
+    <EmbeddedResource Include="images\pinFive.png" />
+    <EmbeddedResource Include="images\pinFour.png" />
+    <EmbeddedResource Include="images\pinNine.png" />
+    <EmbeddedResource Include="images\pinNo.png" />
+    <EmbeddedResource Include="images\pinOne.png" />
+    <EmbeddedResource Include="images\pinSeven.png" />
+    <EmbeddedResource Include="images\pinSix.png" />
+    <EmbeddedResource Include="images\pinThree.png" />
+    <EmbeddedResource Include="images\pinTwo.png" />
+    <EmbeddedResource Include="images\pinYes.png" />
+    <EmbeddedResource Include="images\pinZero.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="SetPinPasscodePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

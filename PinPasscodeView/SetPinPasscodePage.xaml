@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:PinPasscodeView"
+             mc:Ignorable="d"
+             x:Class="PinPasscodeView.SetPinPasscodePage"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Set a pin code"
+                       Margin="30"
+                       FontSize="18" 
+                       TextColor="#4549D1"
+                       HorizontalOptions="Center" 
+                />
+
+                <StackLayout Margin="0,0,0,30">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Row="0" Grid.Column="2" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="PasscodeOne" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="3" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="PasscodeTwo" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="4" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="PasscodeThree" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="5" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="PasscodeFour" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" Grid.Column="2" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="RepPasscodeOne" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="3" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="RepPasscodeTwo" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="4" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="RepPasscodeThree" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="5" HeightRequest="28" WidthRequest="28">
+                            <Image x:Name="RepPasscodeFour" Source="{local:ImageResource PinPasscodeView.images.pinNo.png}" 
+                           HeightRequest="28" WidthRequest="28" />
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="90" />
+                            <RowDefinition Height="90" />
+                            <RowDefinition Height="90" />
+                            <RowDefinition Height="90" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="End" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinOne_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinOne.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinTwo_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinTwo.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="2" HorizontalOptions="Start" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinThree_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinThree.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+
+
+                        <StackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="End" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinFour_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinFour.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="1" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinFive_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinFive.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" Grid.Column="2" HorizontalOptions="Start" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinSix_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinSix.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+
+
+                        <StackLayout Grid.Row="2" Grid.Column="0" HorizontalOptions="End" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinSeven_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinSeven.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="2" Grid.Column="1" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinEight_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinEight.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="2" Grid.Column="2" HorizontalOptions="Start" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinNine_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinNine.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+
+                        <!--<StackLayout Grid.Row="3" Grid.Column="0" HorizontalOptions="End" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinZero_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource Bitspace.images.one.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>-->
+                        <StackLayout Grid.Row="3" Grid.Column="1" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinZero_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinZero.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                        <StackLayout Grid.Row="3" Grid.Column="2" HorizontalOptions="Start" HeightRequest="72" WidthRequest="72">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PinDelete_Tapped"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{local:ImageResource PinPasscodeView.images.pinDelete.png}" 
+                           HeightRequest="72" WidthRequest="72" />
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+
+                <StackLayout Margin="20">
+                    <Button Text="Подтвердить" 
+                            IsEnabled="False"
+                            FontSize="18" 
+                            TextColor="White" 
+                            BackgroundColor="#404CB2" 
+                            Clicked="ConfirmPinCode_Clicked" 
+                            x:Name="ConfirmPinCodeButton" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

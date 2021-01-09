@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "c/hygp+urJ61QSOksv/3FeQ1oH5S4+LVPRUpTsF45MGhZMoUuFegPWgEqaU7zpOEK8ACyek5LGlBsP3sPSNVhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\123\\Desktop\\Xamarin projects\\PinPasscodeView\\PinPasscodeView.iOS\\PinPasscodeView.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\123\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
