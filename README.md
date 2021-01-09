@@ -4,6 +4,7 @@
 <p>2. This repo does not use MVVM models </p>
 <p>3. It is just a .XAML page (Content Page)</p>
 <p>4. The full logic is in the code behind</p>
+<p>If you found it helpful, please put a STAR :) </p>
 
 ### This repo has:
 <p>1. Set the pin password page with logic </p>
