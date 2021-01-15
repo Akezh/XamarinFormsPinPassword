@@ -129,68 +129,68 @@ namespace PinPasscodeView
             switch (f.Count)
             {
                 case 0:
-                    PasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    PasscodeOne.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeTwo.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 1:
-                    PasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    PasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    PasscodeTwo.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 2:
-                    PasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    PasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    PasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    PasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    PasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    PasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 3:
-                    PasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    PasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    PasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    PasscodeThree.TextColor = Color.FromHex("#4549D1");
+                    PasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 4:
-                    PasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    PasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
+                    PasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    PasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    PasscodeThree.TextColor = Color.FromHex("#4549D1");
+                    PasscodeFour.TextColor = Color.FromHex("#4549D1");
                     break;
             }
 
             switch (s.Count)
             {
                 case 0:
-                    RepPasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    RepPasscodeOne.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeTwo.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 1:
-                    RepPasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    RepPasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeTwo.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 2:
-                    RepPasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
-                    RepPasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    RepPasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeThree.TextColor = Color.FromHex("#8F8F8F");
+                    RepPasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 3:
-                    RepPasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinNo.png");
+                    RepPasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeThree.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeFour.TextColor = Color.FromHex("#8F8F8F");
                     break;
                 case 4:
-                    RepPasscodeOne.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeTwo.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeThree.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
-                    RepPasscodeFour.Source = ImageSource.FromResource("PinPasscodeView.images.pinYes.png");
+                    RepPasscodeOne.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeTwo.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeThree.TextColor = Color.FromHex("#4549D1");
+                    RepPasscodeFour.TextColor = Color.FromHex("#4549D1");
                     break;
             }
 
@@ -244,12 +244,11 @@ namespace PinPasscodeView
 
                 UpdateVisual_Passcode();
             }
-
         }
 
         private void ConfirmPinCode_Clicked(object sender, EventArgs e)
         {
-            // Handle the Success event (Eg. save pin in secure (local) storage or send to the server)
+            ConfirmPinCodeButton.IsVisible = false;
         }
     }
 }
